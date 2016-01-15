@@ -1,0 +1,39 @@
+<html ng-app ng-init="valor1 = 100; valor2 = 10; pessoa = {nome: 'Robinho'}">
+<!--
+ng-app   : indica onde começa a aplicação ANGULARJS
+ng-init  : declara variavel na inicialização da aplicação
+ng-bind  : mostra o valor da variavel declarada no inicio, alterando essa variavel
+           de qualquer lugar, irá atualizar em tudo.
+ng-model : Essa propriedade associa ao ng-bind declarado
+-->
+<head>
+    <title>Curso AngularJS</title>
+    <meta charset="utf-8">
+    <script src="angular/angular.min.js"></script>
+</head>
+<body>
+    <h1> Resultado: <texto ng-bind="valor1 + valor2"> </texto> </h1>
+
+    {{ valor1 + valor2 }}
+
+    <p>
+
+    <h1>Seja bem vindo  {{ pessoa.nome }}</h1>
+
+    <h1 ng-bind="pessoa.nome"></h1>
+
+    <input type="text" ng-model="pessoa.nome">
+
+    <input type="number" ng-model="valor1">
+
+    <input type="number" ng-model="valor2">
+
+<!--
+Utilizando as chaves {{ }}, é o mesmo que utilizar o ng-bind
+Porém quando a pagina demora para carregar, pode aparecer as variaveis
+para o usuário, então o melhor é utilizar o ng-bind caso não seja
+demorado para carregar
+-->
+
+</body>
+</html>
