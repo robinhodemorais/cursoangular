@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Curso AngularJS</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div ng-app="appSaudacao">
+            {{ 'Robinho' | ola }}
+        </div>
+
+        <!--
+          Colocando o ng-app na div, o module vai funcionar somente
+          dentro dessa div
+          Colando no html irá funcionar no html inteiro
+        -->
+
+        <script src="js/angular/angular.min.js"></script>
+        <script src="js/aula05.appSaudacao.module.js"></script>
+    </body>
+</html>
