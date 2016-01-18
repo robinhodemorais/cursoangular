@@ -1,0 +1,44 @@
+<!--
+    Aula 06 - Controllers e métodos
+
+    Vamos aprender como criar, organizar e definir nossos controllers,
+    utilizando diretivas específicas e ainda como criar variáveis e
+    funções e utilizá-las em nossa aplicação através do uso da diretiva ng-click.
+
+-->
+<html ng-app="app">
+    <head>
+        <title>Curso AngularJS - Aula06</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <!--
+          > ng-controller recebe o controller onde ele gerencia
+          tudo que está dentro da div.
+
+          > Todos os codigos tem que estar dentro da div, pois pertence ao
+          controller.
+        -->
+        <div ng-controller="aula06Controller">
+            {{ nome }}
+
+            <br><br>
+
+            <button type="button" ng-click="olaMundo('Robinho')">Clique me</button>
+        </div>
+
+
+
+        <script src="js/angular/angular.min.js"></script>
+        <script src="js/app.module.js"></script>
+
+        <!-- Controllers -->
+        <script src="js/aula06Controller.js"></script>
+        <!--
+           Tem que utilizar o controller depois do modulo, porque
+           nessa aula será utilizado uma diretiva do modulo
+        -->
+
+    </body>
+</html>
