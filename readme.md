@@ -12,9 +12,11 @@ inserção, alteração e deleção de dados, bem como sua possível utilizaçã
 ## Introdução
 
 * Introdução ao AngularJS
+
 Vamos iniciar o nosso curso de AngularJS configurando o ambiente com todos os softwares necessários para acompanhar o curso, 
 tais como editor Adobe Brackets, Servidor WEB e ainda a biblioteca AngularJS e plugin para Firefox.
 
 * Exemplo básico usando AngularJS
+
 Em nosso primeiro exemplo prático utilizando a biblioteca vamos aprender como definir a nossa aplicação através da propriedade 
 ng-app e ainda trabalhar com data-bind interagindo entre diversos elementos presentes na tela.
