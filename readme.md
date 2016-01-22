@@ -13,37 +13,42 @@ inserção, alteração e deleção de dados, bem como sua possível utilizaçã
 
 * Introdução ao AngularJS
 
-Vamos iniciar o nosso curso de AngularJS configurando o ambiente com todos os softwares necessários para acompanhar o curso, 
+ 1 - Vamos iniciar o nosso curso de AngularJS configurando o ambiente com todos os softwares necessários para acompanhar o curso, 
 tais como editor Adobe Brackets, Servidor WEB e ainda a biblioteca AngularJS e plugin para Firefox.
 
 * Exemplo básico usando AngularJS
 
-Em nosso primeiro exemplo prático utilizando a biblioteca vamos aprender como definir a nossa aplicação através da propriedade 
+ 2 - Em nosso primeiro exemplo prático utilizando a biblioteca vamos aprender como definir a nossa aplicação através da propriedade 
 ng-app e ainda trabalhar com data-bind interagindo entre diversos elementos presentes na tela.
 
 ## Conceitos Básicos
 
 * JavaScript básico
 
-Vamos nivelar o nosso conhecimento sobre JavaScript aprendendo os conceitos básicos dessa linguagem utilizando estruturas condicionais, 
+ 3 - Vamos nivelar o nosso conhecimento sobre JavaScript aprendendo os conceitos básicos dessa linguagem utilizando estruturas condicionais, 
 loops e ainda criando estruturas mais complexas definindo objetos e ainda array de objetos.
 
 * ngBind e expressões
 
-Vamos aprender como utilizar a diretiva ngBind, como criar variáveis através da diretiva ng-init e ainda como trabalhar com estas variáveis
+ 4 - Vamos aprender como utilizar a diretiva ngBind, como criar variáveis através da diretiva ng-init e ainda como trabalhar com estas variáveis
  usando expressões e a diretiva ng-model.
 
 * Declarando e utilizando módulos
 
-Vamos aprender o que são e para que servem os módulos. Trabalharemos com a separação de nosso código em arquivos externos declarando módulos 
+ 5 - Vamos aprender o que são e para que servem os módulos. Trabalharemos com a separação de nosso código em arquivos externos declarando módulos 
 e agregando os mesmos junto da diretiva ng-app e ainda realizando a criação de filtros.
 
 * Controllers e métodos
 
-Vamos aprender como criar, organizar e definir nossos controllers, utilizando diretivas específicas e ainda como criar variáveis e funções e 
+ 6 - Vamos aprender como criar, organizar e definir nossos controllers, utilizando diretivas específicas e ainda como criar variáveis e funções e 
 utilizá-las em nossa aplicação através do uso da diretiva ng-click.
 
 * Loops usando ngRepeat
 
-Vamos aprender a usar a diretiva ngRepeat para criar loops e iterações entre arrays simples e complexos, compostos por objetos, e seu bind 
+ 7 - Vamos aprender a usar a diretiva ngRepeat para criar loops e iterações entre arrays simples e complexos, compostos por objetos, e seu bind 
 automático com a camada de visualização de nossa aplicação.
+
+* Trabalhando com formulários
+
+ 8 - Aprenderemos como ligar nossos objetos com nossos formulários e a criar validações com base no estado de nosso formulários e de nossos campos. 
+Aprenderemos como utilizar ngModel e demais diretivas necessárias.

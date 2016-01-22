@@ -1,0 +1,117 @@
+<!--
+    Aula 08 - Trabalhando com formulários
+
+    Aprenderemos como ligar nossos objetos com nossos formulários e a criar validações
+    com base no estado de nosso formulários e de nossos campos. Aprenderemos como
+    utilizar ngModel e demais diretivas necessárias.
+
+-->
+<html ng-app="app">
+    <head>
+        <title>Curso AngularJS - Aula08</title>
+        <meta charset="utf-8">
+
+        <style>
+
+            /*
+            Cria um style para validação, só criando esse style ele habilita
+            a Classe ng-touched serve para validar quando entra e sai no campo.
+            */
+            input.ng-invalid.ng-touched {
+                background: red;
+                color: white;
+            }
+
+            input.ng-valid.ng-touched {
+                background: green;
+                color: white;
+            }
+        </style>
+    </head>
+    <body ng-controller="aula08Controller">
+
+        <!--
+         Formularios
+
+         novalidate = não valida o formulario
+         ng-model   = linca o campo input com a variavel pessoa.nome do controller
+         ng-show    = exibe a image
+        -->
+
+        <form name="frm" novalidate ng-submit="salvarPessoa(pessoa)">
+            <p>
+                Nome: <input type="text" ng-model="pessoa.nome" name="txtNome" required>
+
+                <!--
+                  Se o formulado foi submitido e o txtNome já foi acesso, então
+                -->
+                <div ng-show="frm.$submitted || frm.txtNome.$touched">
+                    <!--
+                      Se o frm conter erro então
+                    -->
+                    <div ng-show="frm.txtNome.$error.required">
+                        O campo nome deve ser preenchido
+                    </div>
+
+                    <!--
+                      Se as 3 condições for verdaderia irá aparecer a msg
+                    -->
+                 </div>
+            </p>
+
+            <p>
+                Email: <input type="email" ng-model="pessoa.email" name="txtEmail" required>
+            <div ng-show="frm.$submitted || frm.txtEmail.$touched">
+                <div ng-show="frm.txtEmail.$error.required">
+                    O campo email deve ser preenchido
+                </div>
+            <div ng-show="frm.txtEmail.$error.email">
+                O campo email deve conter um email
+            </div>
+            </div>
+
+            </p>
+
+            <p>
+                Sexo: <input type="radio" value="m" ng-model="pessoa.sexo" >Masculino
+                      <input type="radio" value="f" ng-model="pessoa.sexo" >Feminino
+            </p>
+
+            <p>
+                Estado: <select ng-model="pessoa.estado">
+                            <option ng-repeat="estado in estados" value="{{ estado }}" ng-selected="estado==pessoa.estado">{{estado}}</option>
+                        </select>
+            </p>
+
+            <p>
+                <!--
+                  Utilizando o metodo ng-disabled
+                 -->
+                <input type="submit" value="Salvar" ng-disabled="frm.$invalid">
+            </p>
+
+
+
+            <pre>
+               <!--
+                 Informa que é um objeto pessoa é json, pelo filtro |
+                 Mostra na tela
+                -->
+                {{ pessoa | json }}
+            </pre>
+
+            <pre>
+                {{ pessoas | json }}
+            </pre>
+        </form>
+
+
+        <script src="js/angular/angular.min.js"></script>
+        <script src="js/app.module.js"></script>
+
+        <!-- Controllers -->
+        <script src="js/aula08Controller.js"></script>
+
+
+    </body>
+</html>
