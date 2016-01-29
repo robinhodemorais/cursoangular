@@ -1,0 +1,45 @@
+<!--
+
+	Aula 09 - Service e Factory
+	Aprenderemos como trabalhar com Service e Factory para criar códigos reutilizáveis entre diversos controllers,
+	permitindo reutilização de código e fácil acesso a funcionalidades e objetos.
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS - Aula09</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<div ng-controller="aula09Ctrl1Controller">
+    Controller 1
+
+    {{pessoa.nome}} / {{pessoa.idade}}
+</div>
+
+<div ng-controller="aula09Ctrl2Controller">
+    Controller 2
+
+    {{outrapessoa.nome}}
+
+</div>
+
+
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/app.module.js"></script>
+
+<!-- Services -->
+<script src="js/aula09Service.js"></script>
+
+<!-- Factory -->
+<script src="js/aula09PessoaFactory.js"></script>
+
+
+<!-- Controllers -->
+<script src="js/aula09Controller.js"></script>
+
+
+</body>
+</html>
