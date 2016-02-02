@@ -56,4 +56,9 @@ Aprenderemos como utilizar ngModel e demais diretivas necessárias.
 * 9 - Service e Factory
 
   Aprenderemos como trabalhar com Service e Factory para criar códigos reutilizáveis entre diversos controllers, permitindo reutilização de 
-  código e fácil acesso a funcionalidades e objetos.
+ código e fácil acesso a funcionalidades e objetos.
+  
+* 10 - Filter
+
+  Aprenderemos como utilizar os Filters do framework AngularJS e ainda como definir nossos filtros customizados. Após aprenderemos 
+como utilizar os filters dentro de nosso controller usando injeção direta ou através do uso da diretiva $filter.  
