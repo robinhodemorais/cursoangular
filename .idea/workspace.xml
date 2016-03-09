@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46eed99d-679a-411b-8543-11f163dbf8c1" name="Default" comment="Aula 10. Filters">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/foto1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/foto2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aula12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/aula12Controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+    <list default="true" id="46eed99d-679a-411b-8543-11f163dbf8c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
@@ -35,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="1.1896207">
-                <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+              <first_editor vertical-scroll-proportion="0.67971015">
+                <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -114,10 +108,10 @@
         <option value="$PROJECT_DIR$/js/aula11Controller.js" />
         <option value="$PROJECT_DIR$/aula11_pagina1.html" />
         <option value="$PROJECT_DIR$/aula11_pagina2.html" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/aula11.html" />
         <option value="$PROJECT_DIR$/js/aula12Controller.js" />
         <option value="$PROJECT_DIR$/aula12.html" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -403,7 +397,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457492904589</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Aula 12. Diretivas básicas">
+      <created>1457492920572</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1457492920572</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -417,7 +417,7 @@
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15969989" sideWeight="0.5074627" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37406215" sideWeight="0.49253732" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17148982" sideWeight="0.49253732" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27148846" sideWeight="0.504329" order="3" side_tool="true" content_ui="tabs" />
@@ -456,7 +456,8 @@
     <MESSAGE value="Aula 09. Service e Factory" />
     <MESSAGE value="Aula 10. Filters" />
     <MESSAGE value="Aula 11. ngRoute" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 11. ngRoute" />
+    <MESSAGE value="Aula 12. Diretivas básicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 12. Diretivas básicas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -836,8 +837,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="1.1896207">
-            <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <first_editor vertical-scroll-proportion="0.67971015">
+            <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
