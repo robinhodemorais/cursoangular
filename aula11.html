@@ -1,0 +1,47 @@
+<!--
+
+Aula 11 - ngRoute
+
+Aprenderemos como definir rotas e ainda separar nossa aplicação em diversas páginas.
+Vamos aprender como baixar a biblioteca necessário e ainda definir rotas e passar variáveis
+entre as páginas.
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS - Aula11</title>
+    <meta charset="utf-8">
+    <base href="/" />
+</head>
+<body>
+
+<div ng-controller="Aula11Controller">
+
+    <ul>
+        <li>
+            <a href="/">Inicial</a>
+            <a href="Pagina1">Pagina 1</a>
+            <a href="Pagina2/1">Pagina 2</a>
+        </li>
+    </ul>
+
+
+    <p>Cabeçalho da página</p>
+
+    <div ng-view>
+
+    </div>
+
+    <p>Rodapé da página</p>
+</div>
+
+
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-route.min.js"></script>
+
+<script src="js/aula11Controller.js"></script>
+
+
+</body>
+</html>
