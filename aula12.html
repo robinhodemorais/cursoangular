@@ -1,0 +1,90 @@
+<!--
+
+Aula 12 - Diretivas básicas
+
+  Aprenderemos o que são e como utilizar as diretivas do AngularJS. Vamos aprender como onde encontrar informações sobre as
+diretivas e ainda ver de forma prática como utilizar as diretivas ngShow, ngHide, ngBindHtml, ngClass, ngCloak e ainda ngSrc.
+
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS - Aula12</title>
+    <meta charset="utf-8">
+
+
+    <script src="js/angular/angular.min.js"></script>
+
+    <style>
+
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+        .classNgClass {
+            font-size: 50px;
+            color: red;
+        }
+    </style>
+
+    <base href="/" />
+</head>
+<body>
+
+<div ng-controller="Aula12Controller">
+    <h1>ngShow e ngHide</h1>
+
+    <div ng-show="mostrar">Este bloco é exibido quando mostrar = true</div>
+
+    <div ng-hide="mostrar">Este bloco é exibido quando mostrar = false</div>
+
+    <div ng-show="!mostrar">Este bloco é exibido quando mostrar = !true</div>
+
+    <input type="checkbox" ng-model="mostrar">Selecionado: mostrar = true
+
+    <h1>Elemento A</h1>
+    <a href="">Abrir nova pagina</a>
+
+    <h1>ngBindHTML</h1>
+    <p ng-bind-html="variavelHTML"></p>
+
+    <h1>ngClass</h1>
+
+    <button type="button" ng-click="minhaClass='classNgClass'">Add Class</button>
+
+    <button type="button" ng-click="minhaClass=''">Remove Class</button>
+
+    <div ng-class="minhaClass">DIV de testes</div>
+
+
+    <h1>ngCloak</h1>
+
+    <!--
+      ngCloak
+
+      utiliza também class="ng-cloak" para IE7
+    -->
+
+    <p>Previne que variaveis do tipo {{}} sejam exibidas no broswer</p>
+
+    <p ng-cloak class="ng-cloak">{{variavelCloak}}</p>
+
+    <h1>ngSrc</h1>
+
+    <button type="button" ng-click="minhaFoto='foto1.jpg'">Foto1</button>
+    <button type="button" ng-click="minhaFoto='foto2.jpg'">Foto2</button>
+
+    <img ng-src="imgs/{{minhaFoto}}">
+
+
+</div>
+
+
+
+
+<script src="js/angular/angular-sanitize.min.js"></script>
+
+<script src="js/aula12Controller.js"></script>
+
+
+</body>
+</html>

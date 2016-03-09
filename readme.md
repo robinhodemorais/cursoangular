@@ -62,3 +62,17 @@ Aprenderemos como utilizar ngModel e demais diretivas necessárias.
 
   Aprenderemos como utilizar os Filters do framework AngularJS e ainda como definir nossos filtros customizados. Após aprenderemos 
 como utilizar os filters dentro de nosso controller usando injeção direta ou através do uso da diretiva $filter.  
+
+* 11 - ngRoute
+
+  Aprenderemos como definir rotas e ainda separar nossa aplicação em diversas páginas. Vamos aprender como baixar a biblioteca 
+necessário e ainda definir rotas e passar variáveis entre as páginas.
+  
+  Leia mais em: ngRoute - Curso Completo de AngularJS - Aula 11 http://www.devmedia.com.br/ngroute-curso-completo-de-angularjs-aula-11/32246#ixzz42MvtPJZc
+      
+* 12 - Diretivas básicas
+
+  Aprenderemos o que são e como utilizar as diretivas do AngularJS. Vamos aprender como onde encontrar informações sobre as 
+diretivas e ainda ver de forma prática como utilizar as diretivas ngShow, ngHide, ngBindHtml, ngClass, ngCloak e ainda ngSrc.
+
+Leia mais em: Diretivas básicas - Curso Completo de AngularJS - Aula 12 http://www.devmedia.com.br/diretivas-basicas-curso-completo-de-angularjs-aula-12/32247#ixzz42MwEcrSw      

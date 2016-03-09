@@ -63,10 +63,10 @@
           <driver-source value="EXTERNAL" />
           <driver-library value="C:\Program Files (x86)\JetBrains\mysql-connector-java-5.1.38-bin.jar" />
           <driver value="com.mysql.jdbc.Driver" />
+          <url-type value="DATABASE" />
           <host value="192.168.10.10" />
           <port value="33060" />
           <database value="mysql" />
-          <url-type value="DATABASE" />
           <os-authentication value="false" />
           <empty-password value="false" />
           <user value="homestead" />
