@@ -81,3 +81,10 @@ diretivas e ainda ver de forma prática como utilizar as diretivas ngShow, ngHid
   Vamos aprender como criar nossas próprias diretivas e ainda elementos customizados, definindo restrições e ainda
 funcionalidades que podem ser chamadas entre controller e funções dentro de nossa diretiva para interação com o DOM da página.
        
+* 14 - Requisições assíncronas usando $http
+
+  Vamos aprender como utilizar o objeto $http para realizar a busca de informações remotas e ainda como exibir essas
+informações na tela de forma prática e rápida.
+
+
+
