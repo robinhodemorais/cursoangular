@@ -76,3 +76,8 @@ necessário e ainda definir rotas e passar variáveis entre as páginas.
   Aprenderemos o que são e como utilizar as diretivas do AngularJS. Vamos aprender como onde encontrar informações sobre as 
 diretivas e ainda ver de forma prática como utilizar as diretivas ngShow, ngHide, ngBindHtml, ngClass, ngCloak e ainda ngSrc.
 
+* 13 - Criando diretivas customizadas
+       
+  Vamos aprender como criar nossas próprias diretivas e ainda elementos customizados, definindo restrições e ainda
+funcionalidades que podem ser chamadas entre controller e funções dentro de nossa diretiva para interação com o DOM da página.
+       
