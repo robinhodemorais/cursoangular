@@ -95,3 +95,11 @@ e o objeto $resource do AngularJS.
 
   Vamos aprender como utilizar plugins jQuery junto com AngularJS e ainda qual a finalidade de qual biblioteca, procurando
 entender qual as responsabilidades de cada uma e ainda quando usar e não usar cada uma.
+
+ * 17 - Animations
+
+  Vamos aprender a trabalhar com animações envolvendo AngularJS. Aprenderemos como criar transições usando CSS e a diretiva
+ngAnimate. Aprenderemos como utilizar animações para exibir ou esconder elementos diversos.
+
+
+

@@ -1,0 +1,105 @@
+<!--
+
+	Aula  17 - Animations
+
+  Vamos aprender a trabalhar com animações envolvendo AngularJS. Aprenderemos como criar transições usando CSS e a diretiva
+ngAnimate. Aprenderemos como utilizar animações para exibir ou esconder elementos diversos.
+
+
+
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS Aula17 - Animations</title>
+    <meta charset="utf-8">
+
+    <style>
+        .esconder{
+            padding: 10px;
+            border: 1px solid black;
+            background: white;
+        }
+
+        .esconder {
+            /*para mozila*/
+            -moz-transition: all linear 1s;
+            /*para chrome*/
+            -webkit-transition: all linear 1s;
+            /*para opera*/
+            -o-animation: all linear 1s;
+        }
+
+        .esconder.ng-hide {
+            opacity: 0;
+        }
+
+        .esconder.ng-show {
+            opacity: 1;
+        }
+
+        .repetir-lista {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        /*
+        ng-enter quando adiciona um elemento na tela
+        ng-active
+        ng-leave e move quando sai da tela
+        */
+
+        .repetir-lista.ng-enter{
+            /*para mozila*/
+            -moz-transmition : 2s linear all;
+            /*para chrome*/
+            -webkit-transmition : 2s linear all;
+            /*para opera*/
+            -o-transmition : 2s linear all;
+
+            opacity:  0;
+            background: green;
+        }
+
+        .repetir-lista.ng-enter-active{
+            opacity: 1;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+ ng-init, possibilita criar uma variavel no codigo html
+-->
+<div ng-controller="Aula17Controller" ng-init="mostra=true;itemadd=0">
+
+    <h1>Curso AngularJS Aula17 - Animations</h1>
+
+    <input type="checkbox" ng-model="mostra">
+
+    <div class="esconder" ng-show="mostra">DevMedia</div>
+
+    <hr>
+
+    <input type="text" ng-model="itemadd">
+    <button type="button" ng-click="adicionaItem()">Add</button>
+
+    <hr>
+
+    <div class="repetir-lista" ng-repeat="item in itens">
+        {{item}}
+    </div>
+
+</div>
+
+
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-animate.min.js"></script>
+<script src="js/aula17Controller.js"></script>
+
+
+</body>
+</html>
