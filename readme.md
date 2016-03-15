@@ -86,5 +86,12 @@ funcionalidades que podem ser chamadas entre controller e funções dentro de no
   Vamos aprender como utilizar o objeto $http para realizar a busca de informações remotas e ainda como exibir essas
 informações na tela de forma prática e rápida.
 
+* 15 - Acesso a dados usando $resource
 
+  Vamos aprender como integrar nossa aplicação com um pequeno serviço de dados criado através do Slim Framework em PHP
+e o objeto $resource do AngularJS.
 
+ * 16 - AngularJS vs jQuery
+
+  Vamos aprender como utilizar plugins jQuery junto com AngularJS e ainda qual a finalidade de qual biblioteca, procurando
+entender qual as responsabilidades de cada uma e ainda quando usar e não usar cada uma.
