@@ -1,0 +1,33 @@
+<!--
+
+	Aula 15 - Acesso a dados usando $resource
+
+  Vamos aprender como integrar nossa aplicação com um pequeno serviço de dados
+criado através do Slim Framework em PHP e o objeto $resource do AngularJS.
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS - Aula15</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<div ng-controller="Aula15Controller">
+    <button type="button" ng-click="carregaLivros()">Carregar Livros</button>
+    <button type="button" ng-click="salvarLivro()">Salvar Livros</button>
+    <button type="button" ng-click="getLivro(10)">Carregar Livro : ID 10</button>
+
+</div>
+
+
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-resource.min.js"></script>
+
+<!-- Controllers -->
+<script src="js/aula15Controller.js"></script>
+
+
+</body>
+</html>
