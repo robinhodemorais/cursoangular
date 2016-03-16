@@ -102,4 +102,11 @@ entender qual as responsabilidades de cada uma e ainda quando usar e não usar c
 ngAnimate. Aprenderemos como utilizar animações para exibir ou esconder elementos diversos.
 
 
+ * 18 - $location
+
+  Vamos aprender como utilizar o objeto $location para interagir com a URL de nossa página, passando variáveis via URL e
+ainda interagindo com essa URL permitindo avançar e voltar através dos botões do browser.
+
+
+
 

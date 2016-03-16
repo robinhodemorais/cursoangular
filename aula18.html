@@ -1,0 +1,53 @@
+<!--
+
+	Aula 18 : $location
+
+Vamos aprender como utilizar o objeto $location para interagir com a URL de nossa página,
+passando variáveis via URL e ainda interagindo com essa URL permitindo avançar e voltar
+através dos botões do browser.
+
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS Aula18 - $location</title>
+    <meta charset="utf-8">
+
+
+
+</head>
+<body>
+
+<div ng-controller="Aula18Controller">
+
+    <h1>Curso AngularJS Aula18 - $location</h1>
+
+    <p>&ndsp</p>
+    <p>{{$location.protocol()}}</p>
+    <p>{{$location.host()}}</p>
+    <p>{{$location.port()}}</p>
+    <p>{{$location.path()}}</p>
+    <p>{{$location.search() | json}}</p>
+    <p>{{$location.search().id}}</p>
+    <p>{{$location.hash()}}</p>
+
+    <a href="#" ng-click="setaId(10)">Link</a>
+    <a href="#" ng-click="setaId(11)">Link</a>
+    <a href="#" ng-click="setaId(12)">Link</a>
+    <a href="#" ng-click="setaId(13)">Link</a>
+    <a href="#" ng-click="setaId(14)">Link</a>
+    <a href="#" ng-click="setaId(15)">Link</a>
+    <a href="#" ng-click="setaId(16)">Link</a>
+
+
+</div>
+
+
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/app.module.js"></script>
+<script src="js/aula18Controller.js"></script>
+
+
+</body>
+</html>
