@@ -1,0 +1,38 @@
+<!--
+	Aula 20 - Plugins
+
+  Vamos aprender como utilizar plug-ins e ainda como incrementar as funcionalidades de nossas
+  aplicações. Aprenderemos como criar e declarar elementos para que nosso sistema possua múltiplos
+  idiomas e ainda que o usuário possa escolher o idioma.
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS Aula20 - Plugins </title>
+    <meta charset="utf-8">
+
+</head>
+<body>
+
+<div ng-controller="Aula20Controller">
+
+    <h1>Curso AngularJS Aula20 - Plugins </h1>
+
+    <h1 translate="TITULO"></h1>
+    <P translate="PARAGRAFO1"></P>
+
+    <button type="button" translate="BTN_OK"></button>
+    <button type="button" translate="BTN_CANCEL"></button>
+
+    <button type="button" translate="EN_BTN" ng-click="setaIdioma('en')"></button>
+    <button type="button" translate="PTBR_BTN" ng-click="setaIdioma('pt-br')"></button>
+</div>
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-translate.min.js"></script>
+<script src="js/aula20Controller.js"></script>
+
+
+
+</body>
+</html>

@@ -101,11 +101,20 @@ entender qual as responsabilidades de cada uma e ainda quando usar e não usar c
   Vamos aprender a trabalhar com animações envolvendo AngularJS. Aprenderemos como criar transições usando CSS e a diretiva
 ngAnimate. Aprenderemos como utilizar animações para exibir ou esconder elementos diversos.
 
-
  * 18 - $location
 
   Vamos aprender como utilizar o objeto $location para interagir com a URL de nossa página, passando variáveis via URL e
 ainda interagindo com essa URL permitindo avançar e voltar através dos botões do browser.
+
+ * 19 - ngCookies
+
+  Vamos aprender a trabalhar com cookies através do uso da dependência ngCookies. Aprenderemos como criar cookies, definir
+valores e ainda remover cookies armazenados no computador do usuários.
+
+ * 20 - Plugins
+
+  Vamos aprender como utilizar plug-ins e ainda como incrementar as funcionalidades de nossas aplicações. Aprenderemos 
+como criar e declarar elementos para que nosso sistema possua múltiplos idiomas e ainda que o usuário possa escolher o idioma.
 
 
 
