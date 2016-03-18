@@ -1,0 +1,41 @@
+<!--
+	Aula  21 - Upload de Arquivos
+
+  Vamos aprender como realizar o upload de arquivos utilizando o framework AngularJS e ainda PHP como tecnologia de
+servidor junto com o plugin Angular File Upload.
+
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS Aula 21 - Upload de Arquivos </title>
+    <meta charset="utf-8">
+
+</head>
+<body>
+
+<div ng-controller="Aula21Controller">
+
+    <h1>Curso AngularJS Aula 21- Upload de Arquivos </h1>
+
+    <input type="file" nv-file-select uploader="uploader" multiple>
+    <hr>
+
+    <ul>
+        <li ng-repeat="item in uploader.queue">
+            Nome: <span ng-bind="item.file.name"></span><br/>
+            <button type="button" ng-click="item.upload()">Upload Item</button>
+        </li>
+
+    </ul>
+
+</div>
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-file-upload.min.js"></script>
+<script src="js/aula21Controller.js"></script>
+
+
+
+</body>
+</html>

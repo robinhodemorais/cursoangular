@@ -116,6 +116,11 @@ valores e ainda remover cookies armazenados no computador do usuários.
   Vamos aprender como utilizar plug-ins e ainda como incrementar as funcionalidades de nossas aplicações. Aprenderemos 
 como criar e declarar elementos para que nosso sistema possua múltiplos idiomas e ainda que o usuário possa escolher o idioma.
 
+  * 21 - Upload de Arquivos
+  
+  Vamos aprender como realizar o upload de arquivos utilizando o framework AngularJS e ainda PHP como tecnologia de 
+servidor junto com o plugin Angular File Upload.
+
 
 
 
