@@ -130,6 +130,20 @@ aprender como utilizar ui.highlight e ui.mask para salientar textos e criar más
   Vamos aprender como utilizar dois componentes do pacote AngularUI: ui.unique e ui.validate. 
 O primeiro para exibir elementos únicos e o seguindo para trabalhar com validações.
 
+  * 24 - AngularUI: Google Maps
+
+  Vamos aprender como utilizar o componente Angular Google Maps para inserir um mapa em nossa página
+bem como após inserido o mapa, inserir um marcador em uma determinada região do mapa embutido.
+
+  * 25 - AngularUI: ui.select
+
+   Vamos aprender como utilizar o componente ui.select para realizar uma busca em uma lista de países 
+de forma mais agradável ao nosso usuário e ainda utilizando componentes prontos junto com Bootstrap.
+
+
+
+
+
 
 
 
