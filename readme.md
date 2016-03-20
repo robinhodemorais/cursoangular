@@ -121,6 +121,15 @@ como criar e declarar elementos para que nosso sistema possua múltiplos idiomas
   Vamos aprender como realizar o upload de arquivos utilizando o framework AngularJS e ainda PHP como tecnologia de 
 servidor junto com o plugin Angular File Upload.
 
+  *	22 - AngularUI: ui.highlight e ui.mask
+  Vamos começar a trabalhar com o pacote AngularUI e suas diversas ferramentas. Nessa videoaula vamos
+aprender como utilizar ui.highlight e ui.mask para salientar textos e criar máscaras.
+
+  * 23 - AngularUI: ui.unique e ui.validate
+
+  Vamos aprender como utilizar dois componentes do pacote AngularUI: ui.unique e ui.validate. 
+O primeiro para exibir elementos únicos e o seguindo para trabalhar com validações.
+
 
 
 

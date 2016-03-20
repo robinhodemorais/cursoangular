@@ -1,0 +1,53 @@
+<!--
+	Aula 23 - AngularUI: ui.unique e ui.validate
+
+   Vamos aprender como utilizar dois componentes do pacote AngularUI: ui.unique e ui.validate.
+O primeiro para exibir elementos únicos e o seguindo para trabalhar com validações.
+
+-->
+<html ng-app="app">
+<head>
+    <title>Curso AngularJS Aula 23 - ui.unique e ui.validate </title>
+    <meta charset="utf-8">
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+
+<div ng-controller="Aula23Controller" ng-init="campo=''">
+
+    <h1>Curso AngularJS Aula 23- ui.unique e ui.validate </h1>
+
+    <h1>ui.unique</h1>
+    <button type="button" ng-click="campo=''">Todos</button>
+    <button type="button" ng-click="campo='nome'">Nome</button>
+    <button type="button" ng-click="campo='email'">Email</button>
+
+    <p ng-repeat="usuario in usuarios | unique:campo">
+        {{usuario.nome}} / {{usuario.email}}
+    </p>
+
+    <h1>ui.validate</h1>
+
+    <form name="formulario">
+        <input type="text" ng-model="senha1" name="senha1" placeholder="Senha" required>
+        <input type="text" ng-model="senha2" name="senha2" placeholder="Confirmar Senha" required
+        ui-validate='"validar($value)"'
+        ui-validate-watch='"senha1"'>
+        <button type="submit" ng-disabled="!formulario.$valid">Enviar Formulario</button>
+
+        <div ng-show="!formulario.$valid">Preencha todos os campos</div>
+    </form>
+
+
+</div>
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/ui-utils.min.js"></script>
+<script src="js/aula23Controller.js"></script>
+
+</body>
+</html>
