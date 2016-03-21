@@ -145,13 +145,8 @@ de forma mais agradável ao nosso usuário e ainda utilizando componentes pronto
    Vamos aprender como utilizar o módulo ui.bootstrap, que é uma versão do framework Bootstrap feita 
 para ser utilizada em aplicações que fazem uso do AngularJS.
 
+  * 27 - Projeto Prático: Modelagem de dados
 
-
-
-
-
-
-
-
-
+   Vamos compreender o funcionamento de nosso projeto prático bem como criar a modelagem da base de 
+dados utilizando MySQL Workbench. Ao final será exportada a modelagem para o formato SQL.
 
