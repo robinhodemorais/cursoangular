@@ -140,6 +140,14 @@ bem como após inserido o mapa, inserir um marcador em uma determinada região d
    Vamos aprender como utilizar o componente ui.select para realizar uma busca em uma lista de países 
 de forma mais agradável ao nosso usuário e ainda utilizando componentes prontos junto com Bootstrap.
 
+  * 26 - AngularUI: ui.bootstrap
+
+   Vamos aprender como utilizar o módulo ui.bootstrap, que é uma versão do framework Bootstrap feita 
+para ser utilizada em aplicações que fazem uso do AngularJS.
+
+
+
+
 
 
 
