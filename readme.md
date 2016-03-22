@@ -91,62 +91,66 @@ informações na tela de forma prática e rápida.
   Vamos aprender como integrar nossa aplicação com um pequeno serviço de dados criado através do Slim Framework em PHP
 e o objeto $resource do AngularJS.
 
- * 16 - AngularJS vs jQuery
+* 16 - AngularJS vs jQuery
 
   Vamos aprender como utilizar plugins jQuery junto com AngularJS e ainda qual a finalidade de qual biblioteca, procurando
 entender qual as responsabilidades de cada uma e ainda quando usar e não usar cada uma.
 
- * 17 - Animations
+* 17 - Animations
 
   Vamos aprender a trabalhar com animações envolvendo AngularJS. Aprenderemos como criar transições usando CSS e a diretiva
 ngAnimate. Aprenderemos como utilizar animações para exibir ou esconder elementos diversos.
 
- * 18 - $location
+* 18 - $location
 
   Vamos aprender como utilizar o objeto $location para interagir com a URL de nossa página, passando variáveis via URL e
 ainda interagindo com essa URL permitindo avançar e voltar através dos botões do browser.
 
- * 19 - ngCookies
+* 19 - ngCookies
 
   Vamos aprender a trabalhar com cookies através do uso da dependência ngCookies. Aprenderemos como criar cookies, definir
 valores e ainda remover cookies armazenados no computador do usuários.
 
- * 20 - Plugins
+* 20 - Plugins
 
   Vamos aprender como utilizar plug-ins e ainda como incrementar as funcionalidades de nossas aplicações. Aprenderemos 
 como criar e declarar elementos para que nosso sistema possua múltiplos idiomas e ainda que o usuário possa escolher o idioma.
 
-  * 21 - Upload de Arquivos
+* 21 - Upload de Arquivos
   
   Vamos aprender como realizar o upload de arquivos utilizando o framework AngularJS e ainda PHP como tecnologia de 
 servidor junto com o plugin Angular File Upload.
 
-  *	22 - AngularUI: ui.highlight e ui.mask
+* 22 - AngularUI: ui.highlight e ui.mask
   Vamos começar a trabalhar com o pacote AngularUI e suas diversas ferramentas. Nessa videoaula vamos
 aprender como utilizar ui.highlight e ui.mask para salientar textos e criar máscaras.
 
-  * 23 - AngularUI: ui.unique e ui.validate
+* 23 - AngularUI: ui.unique e ui.validate
 
   Vamos aprender como utilizar dois componentes do pacote AngularUI: ui.unique e ui.validate. 
 O primeiro para exibir elementos únicos e o seguindo para trabalhar com validações.
 
-  * 24 - AngularUI: Google Maps
+* 24 - AngularUI: Google Maps
 
   Vamos aprender como utilizar o componente Angular Google Maps para inserir um mapa em nossa página
 bem como após inserido o mapa, inserir um marcador em uma determinada região do mapa embutido.
 
-  * 25 - AngularUI: ui.select
+* 25 - AngularUI: ui.select
 
    Vamos aprender como utilizar o componente ui.select para realizar uma busca em uma lista de países 
 de forma mais agradável ao nosso usuário e ainda utilizando componentes prontos junto com Bootstrap.
 
-  * 26 - AngularUI: ui.bootstrap
+* 26 - AngularUI: ui.bootstrap
 
    Vamos aprender como utilizar o módulo ui.bootstrap, que é uma versão do framework Bootstrap feita 
 para ser utilizada em aplicações que fazem uso do AngularJS.
 
-  * 27 - Projeto Prático: Modelagem de dados
+* 27 - Projeto Prático: Modelagem de dados
 
    Vamos compreender o funcionamento de nosso projeto prático bem como criar a modelagem da base de 
 dados utilizando MySQL Workbench. Ao final será exportada a modelagem para o formato SQL.
 
+* 28 - Projeto Prático: Sistema de login
+
+   Vamos criar a nossa API de dados e ainda criar o nosso formulário de login, permitindo que o usuário
+se autentique em nosso sistema e ainda que o sistema bloqueie acessos não autorizados.
